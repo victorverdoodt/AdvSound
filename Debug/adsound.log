@@ -1,0 +1,5 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  advsound.cpp
+advsound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library E:\Users\Victor\Desktop\Depois organziar\Advsound\Debug\advsound.lib and object E:\Users\Victor\Desktop\Depois organziar\Advsound\Debug\advsound.exp
+  adsound.vcxproj -> E:\Users\Victor\Desktop\Depois organziar\Advsound\Debug\advsound.dll

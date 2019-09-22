@@ -1,0 +1,17 @@
+﻿E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  advsound.cpp
+     Creating library E:\Users\Victor\Desktop\Depois organziar\Advsound\x64\Debug\advsound.lib and object E:\Users\Victor\Desktop\Depois organziar\Advsound\x64\Debug\advsound.exp
+advsound.obj : error LNK2019: unresolved external symbol lua_settop referenced in function "int __cdecl setReverbEnabled(struct lua_State *)" (?setReverbEnabled@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_tonumberx referenced in function "int __cdecl setVolume(struct lua_State *)" (?setVolume@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_toboolean referenced in function "int __cdecl setReverbEnabled(struct lua_State *)" (?setReverbEnabled@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_tolstring referenced in function "int __cdecl play(struct lua_State *)" (?play@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_touserdata referenced in function "int __cdecl deleteSnd(struct lua_State *)" (?deleteSnd@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_pushnumber referenced in function "int __cdecl getSoundPlayPosition(struct lua_State *)" (?getSoundPlayPosition@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_pushboolean referenced in function "int __cdecl deleteSnd(struct lua_State *)" (?deleteSnd@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol lua_pushlightuserdata referenced in function "int __cdecl play(struct lua_State *)" (?play@@YAHPEAUlua_State@@@Z)
+advsound.obj : error LNK2019: unresolved external symbol luaL_setfuncs referenced in function luaopen_irrklua
+advsound.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPEAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPEBD1@Z) referenced in function luaopen_irrklua
+lua5.1.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+lua52.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+irrKlang.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Users\Victor\Desktop\Depois organziar\Advsound\x64\Debug\advsound.dll : fatal error LNK1120: 10 unresolved externals
